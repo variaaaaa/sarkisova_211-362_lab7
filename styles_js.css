@@ -1,0 +1,219 @@
+body {
+    font-family: "Dancing Script", sans-serif;
+  
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+    .wrapper {
+        padding: 0 40px;
+      }
+      
+      .header {
+        background-color: rgb(41, 26, 50);
+      }
+      
+      .header__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 25px 40px;
+        align-items: center;
+      }
+      
+      .logo {
+        font-weight: bold;
+        font-size: 26px;
+        color: azure;
+      }
+      
+      .menu {
+        display: flex;
+        list-style: none;
+      }
+      
+      .menu__item {
+        position: relative;
+        margin: 0 20px;
+      }
+      
+      .menu__item::before {
+        content: "";
+        width: 0;
+        height: 1px;
+        background-color: rgb(119, 57, 57);
+        position: absolute;
+        bottom: -5px;
+        left: -20px;
+        margin: 0 20px;
+        transition: 0.2s linear;
+        -webkit-transition: 0.2s linear;
+        -moz-transition: 0.2s linear;
+        -ms-transition: 0.2s linear;
+        -o-transition: 0.2s linear;
+      }
+      
+      .menu__item:hover::before {
+        width: 100%;
+        background-color: rgb(129, 85, 205);
+      }
+      
+      .menu__item a:hover {
+        color: rgb(82, 67, 142);
+      }
+      
+      a {
+        text-decoration: none;
+        color: rgb(127, 111, 111);
+      }
+.elements {
+    background-color: rgb(166, 136, 181) ;
+    height: 88vh;
+    background-repeat: round;
+    background-size: 30%;
+    margin-bottom: -45px;
+}
+.calc-pic {
+    position: absolute;
+    top: 100px;
+    left: 590px;
+    z-index: -0.9;
+}
+h6 {
+    font-family: 'Island Moments', cursive;
+    font-size: 26px;
+    color: #646262;
+    position: absolute;
+    top: 50px;
+    left: 725px;
+}
+#out_screen {
+    position: absolute;
+    top: 150px;
+    left: 630px;
+    opacity: 70%;
+}
+
+.key_bracket, .key_clear_1, .key_operation,
+.key_digit, .key_result {
+    cursor: pointer;
+    color: #646262;
+    width: 52px;
+    height: 44px;
+    position: absolute;
+    z-index: 1;
+}
+
+#b_c_all {
+    top: 265px;
+    left: 629px;
+}
+#b_l {
+    top: 265px;
+    left: 701px;
+}
+#b_r {
+    top: 265px;
+    left: 773px;
+}
+#o_d {
+    top: 265px;
+    left: 845px;
+}
+#d_7 {
+    top: 328px;
+    left: 629px;
+}
+#d_8 {
+    top: 328px;
+    left: 701px;
+}
+#d_9 {
+    top: 328px;
+    left: 773px;
+}
+#o_m {
+    top: 328px;
+    left: 845px;
+}
+#d_4 {
+    top: 391px;
+    left: 629px;
+}
+#d_5 {
+    top: 391px;
+    left: 701px;
+}
+#d_6 {
+    top: 391px;
+    left: 773px;
+}
+#o_s {
+    top: 391px;
+    left: 845px;
+}
+#d_1 {
+    top: 454px;
+    left: 629px;
+}
+#d_2 {
+    top: 454px;
+    left: 701px;
+}
+#d_3 {
+    top: 454px;
+    left: 773px;
+}
+#d_c {
+    top: 517px;
+    left: 629px;
+}
+#d_0 {
+    top: 517px;
+    left: 701px;
+}
+#bt_r {
+    top: 517px;
+    left: 773px;
+}
+#o_a {
+    width: 52px;
+    height: 107px;
+    top: 454px;
+    left: 845px;
+}
+#b_c_one {
+    width: 269px;
+    height: 27px;
+    position: absolute;
+    top: 579px;
+    left: 629px;
+}
+
+
+.footer {
+    background-color: rgb(24, 24, 24);
+    color: rgb(204, 204, 204);
+    margin-top: 2%;
+    padding: 30px;
+    font-weight: 300;
+  }
+  
+  .footer ul {
+    list-style: none;
+  }
+  
+  .footer-info__item {
+    margin: 10px 0;
+  }
+  
+  .footer-info__item a {
+    color: rgb(204, 204, 204);
+  }
+  
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
